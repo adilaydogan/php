@@ -1,0 +1,6 @@
+<?php
+<form action="" medthod="post">
+<input type="text" name="zar1">
+<input type="text" name="zar1">
+<input type="submit" value="gonder">
+?>
