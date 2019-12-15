@@ -1,6 +1,23 @@
 <?php
 <form action="" medthod="post">
 <input type="text" name="zar1">
-<input type="text" name="zar1">
+<input type="text" name="zar2">
 <input type="submit" value="gonder">
-?>
+</form>
+$sayi1=rand(1,6);
+$sayi2=rand(1,6);
+$tahmin=0;
+if(isset($_POST['zar1']) && isset($_POST['zar2'])){
+if($_POST['zar1'] > 0)  && ($_POST['zar1'] < 6))
+if($_POST['zar2'] > 0) && ($_POST['zar2'] < 6))
+if($_POST['zar1'] == $sayi1 ) $tahmin++ ;
+if ($_POSt['zar1'] == $sayi2 ) $tahmin++;
+if ($_POST['zar2'] == $sayi1) $tahmin++;
+if ($_POST['zar2'] == $sayi2) $tahmin++; } 
+echo "bilgsiyarın attığı zarlar <br>";
+echo " $sayi1 .$sayi1 ";
+echo " sizin zarlarınız .{$_POST['zar1']}";
+echo " sizin zarlarınız .{$_POST['zar2']}"; }
+echo (" tebrikler . $tahmin tahmin bildiğniiz "); else { echo "bilemediniz";}
+ }
+ ?>
