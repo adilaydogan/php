@@ -7,7 +7,7 @@
 $sayi1=rand(1,6);
 $sayi2=rand(1,6);
 $tahmin=0;
-if(is_numeric($_POST['zar1']) && isset($_POST['zar2'])){
+if(is_numeric($_POST['zar1']) && is_numeric($_POST['zar2'])){
 if($_POST['zar1'] > 0)  && ($_POST['zar1'] < 7))
 if($_POST['zar2'] > 0) && ($_POST['zar2'] < 7))
 if($_POST['zar1'] == $sayi1 ) $tahmin++ ;
